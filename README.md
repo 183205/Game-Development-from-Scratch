@@ -27,4 +27,23 @@
   工具栏
   
   <img width="1685" height="816" alt="image" src="https://github.com/user-attachments/assets/f65010dc-be39-4f3b-87f0-fedc76c10d30" />
+  
+  1.Build Settings 打包程序
+  2.Project Settings 工程设置
+    Preferences 首选项
+                 Extemal Tools 开发工具
+                 Languages 语言
+  3.
+  4.Move To View 把对象放在视角中心
+  5.
+  6.Asset Store 资源商店
+  
+  父子关系
+   树状结构 二叉树
+   子对象会随着父对象的变化而变化
+   子对象Inspector窗口中Transfor信息是相对父对象的
+
+   习题 用自带建模制作一个坦克 并把制作元素放入一个空建模里变成子对象快捷移动所有坦克建模块
+
+   <img width="1010" height="961" alt="image" src="https://github.com/user-attachments/assets/78b51630-dff3-4dfe-867e-46e89c8a5b64" />
 
