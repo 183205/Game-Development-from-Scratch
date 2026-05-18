@@ -6,13 +6,13 @@
 
    学习Inspector和Console窗口的使用
    
-   Inspector
+   1.Inspector窗口
 <img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/a51240c4-6aee-4bce-ad17-3a0c1828ac3a" />
 
-   Console
+   2.Console窗口
 <img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/53d0499a-36b3-486a-bf3e-9b9d13422fc8" />
 
-   总结
+   3.总结
 <img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/64725def-f428-4f97-9045-4ebf4d375180" />
 
 
