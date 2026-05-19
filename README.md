@@ -74,15 +74,15 @@
       脚本基本规则
         1.脚本规则
       
-        <img width="711" height="280" alt="image" src="https://github.com/user-attachments/assets/40adbaf5-6adf-4d1e-9d3a-a70b24ced6df" />
+   <img width="711" height="280" alt="image" src="https://github.com/user-attachments/assets/40adbaf5-6adf-4d1e-9d3a-a70b24ced6df" />
 
         2.Mono Behavior基类
 
-        <img width="871" height="318" alt="image" src="https://github.com/user-attachments/assets/04c6d0e1-bdda-4c2d-b890-d175f047de9d" />
+   <img width="871" height="318" alt="image" src="https://github.com/user-attachments/assets/04c6d0e1-bdda-4c2d-b890-d175f047de9d" />
 
         3.不继承Mono 的类
 
-        <img width="917" height="195" alt="image" src="https://github.com/user-attachments/assets/4ada7b78-e528-4a6f-8933-d1ef880ed37b" />
+   <img width="917" height="195" alt="image" src="https://github.com/user-attachments/assets/4ada7b78-e528-4a6f-8933-d1ef880ed37b" />
 
         4.执行的先后顺序
           在脚本右上角可以设置脚本顺序
