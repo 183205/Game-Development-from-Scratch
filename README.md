@@ -91,7 +91,7 @@
 5.20 生命周期函数
    游戏的本质是一个死循环
      生命周期函数
-       详细见Lesson1 left cytly.Lesson1
+       详细见Lesson1 Lile Cycly.Lesson1
      总结 
        生命周期函数不打算写入逻辑 不要生成函数 会产生资源浪费
        脚本可以挂载任何对象上面
