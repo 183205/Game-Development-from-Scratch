@@ -91,14 +91,22 @@
 5.20 生命周期函数
    游戏的本质是一个死循环
      生命周期函数
-       详细见Lesson1 Lile Cycly.Lesson1
+       详细见Scripts\Lesson1 Lile Cycly\Lesson1
      总结 
        生命周期函数不打算写入逻辑 不要生成函数 会产生资源浪费
        脚本可以挂载任何对象上面
        对象运行前是失活状态 那么什么函数都不会激活
      
      Inspector窗口可编辑变量
+       详细见Scripts\Lesson2 Inspector Window\Lesson2
        
+     Mono中的重要内容  
+       详细见Scripts\Lesson3 Mono\Lesson3
+
+       练习
+       1.脚本A脚本B挂载一个对象上 实现在脚本A中让脚本B失活
+       2.脚本A挂载A对象，脚本B挂载B对象，在B对象中让A对象的A脚本失活
+       详细见Scripts\Lesson3 Mono\exercises
 
      
 
