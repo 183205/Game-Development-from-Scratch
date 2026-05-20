@@ -22,6 +22,8 @@ public class Lesson2 : MonoBehaviour
     [Header("基础属性")]
     public int age;
     public bool sex;
-
+    //2.[Tooltip]添加说明
+    //3.[Space]让两个字段出现一个间隔
+    //4.[Range( , )]显示滑条范围
 
 }
