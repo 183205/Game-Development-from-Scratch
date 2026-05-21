@@ -108,5 +108,9 @@
        2.脚本A挂载A对象，脚本B挂载B对象，在B对象中让A对象的A脚本失活
        详细见Scripts\Lesson3 Mono\exercises
 
+5.21GameObject成员变量 方法
+   GameObject成员变量
+   GameObject成员静态方法
+   GameObject成员方法
      
 
