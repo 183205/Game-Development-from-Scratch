@@ -108,9 +108,25 @@
        2.脚本A挂载A对象，脚本B挂载B对象，在B对象中让A对象的A脚本失活
        详细见Scripts\Lesson3 Mono\exercises
 
-5.21GameObject成员变量 方法
+5.21-5.22GameObject成员变量 方法
    GameObject成员变量
+   
    GameObject成员静态方法
+   
    GameObject成员方法
+   详细见Scripts\Lesson4 min unit GameObject\Lesson4
+
+   练习题
+   
+   练习1一个空物体上挂了一个脚本,游戏运行时该脚本可以实例化出之前的坦克预设体
+  
+   练习2一个脚本 A 一个脚本 B, 脚本 A 挂在 A 对象上，脚本 B 挂在 B 对寸象上实现在 A 脚本的 Start 函数中将 B 对象上的 B 脚本失活 (用 GameObject 相关知识做)
+   
+   练习3一个对象A和一个对象B,在A上挂一个脚本,通过这个脚本司可以让对象改名,失活,延迟删除,立即删除。可以在Inspector窗口进行设置,让B实现不同的效果(提示:GameObject、枚举)
+   
+   详细见Scripts\Lesson4 min unit GameObject\exercises
+
+   时间相关Time
+   详细见Scripts\Lesson5 About Time\Lesson5
      
 
