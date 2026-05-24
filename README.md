@@ -128,5 +128,19 @@
 
    时间相关Time
    详细见Scripts\Lesson5 About Time\Lesson5
-     
+5.24 对象的位置和位移
+    1.Vector3基础
+    2.Vector3基本计算 +-*/
+    3.关于对象的位置和位移
+    详细见Scripts\Lssoon6 Position and Displacement
+
+    练习题
+    1. 一个空对象上挂了一个脚本，这个脚本可以让游戏运行时，在场景中创建出一个 n 层由 Cube 构成的金字塔 (提示：实例化预设体或者实例化自带几何体方法)
+    2.this.transform.Translate (Vector3.forward, Space.World);
+    this.transform.Translate (Vector3.forward, Space.Self);
+    this.transform.Translate (this.transform.forward, Space.Self);
+    this.transform.Translate (this.transform.forward, Space.World)
+    这四个方法，哪些才能让对象朝自己的面朝向移动？为何？(可以画图说明)
+    3. 使用你之前创建的坦克预设体，让其可以朝自己的面朝向向前移动
+    详细见Scripts\Lssoon6 Position and Displacement\exercises
 
