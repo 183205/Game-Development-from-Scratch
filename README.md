@@ -145,7 +145,20 @@
     详细见Scripts\Lssoon6 Position and Displacement\exercises
 5.25 对象的角度和旋转
     1.角度相关 
-
     2.旋转相关
-
+    详细代码和知识见Scripts\Lesson7 Angle and rotation\Lesson7
     
+    练习题
+    1.使用你之前创建的坦克预设体,在坦克下面加一个底座(用自带几何体即可)让其可以原地旋转,类似一个展览台
+    2.在第一题的基础上,让坦克的炮台可以自动左右来回旋转,炮管可以自动上下抬起
+    3.请用3个球体,模拟太阳、地球、月亮之间的旋转移动
+    详细代码见Scripts\Lesson7 Angle and rotation\Lesson7\exercises
+
+5.26缩放和看向
+   1.缩放
+   2.看向
+   详细见Scripts\Lesson8 Zoom and look at\Lesson8
+
+   练习题
+   使用之前的坦克预设体,让摄像机可以跟随其移动,并且一直看向坦克
+   详细见Scripts\Lesson8 Zoom and look at\exercises
