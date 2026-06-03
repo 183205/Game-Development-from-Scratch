@@ -162,3 +162,21 @@
    练习题
    使用之前的坦克预设体,让摄像机可以跟随其移动,并且一直看向坦克
    详细见Scripts\Lesson8 Zoom and look at\exercises
+5.28父子关系
+   一.获取和设置父对象
+      父对象的操作
+      建立和断绝关系
+   二.批量断绝儿子的关系
+   三.获取子对象
+      find找儿子
+      遍历儿子
+      判断自己的爸爸是谁
+      获得儿子的编号
+      设置儿子的编号
+   详细见Scripts\Lesson father and son\Lesson9
+
+   练习
+      把子对象的名字按长度排序
+      根据名字查到子对象 直到查到为止 可以找儿子的儿子
+   详细见Scripts\Lesson father and son\exercises
+5.28父子关系
