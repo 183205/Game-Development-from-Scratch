@@ -203,3 +203,8 @@
     让一个物体根据鼠标输入旋转方向
     详细见Scripts\Lesson11 input\exercises
      
+6.18 Screen 和 Camera
+    一 Screen 静态属性
+    二 Screen 静态方法
+
+    
