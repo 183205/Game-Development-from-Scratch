@@ -199,5 +199,7 @@
     详细见Scripts\Lesson11 input\Lesson11
     
     练习
-     
+    让一个物体根据键盘输入前后左右移动起来
+    让一个物体根据鼠标输入旋转方向
+    详细见Scripts\Lesson11 input\exercises
      
