@@ -173,10 +173,31 @@
       判断自己的爸爸是谁
       获得儿子的编号
       设置儿子的编号
-   详细见Scripts\Lesson father and son\Lesson9
+   详细见Scripts\Lesson9 father and son\Lesson9
 
    练习
       把子对象的名字按长度排序
       根据名字查到子对象 直到查到为止 可以找儿子的儿子
    详细见Scripts\Lesson father and son\exercises
-5.28父子关系
+
+6.17坐标转换和input输入
+   坐标转换
+    一世界坐标系 转本地坐标系
+    二本地坐标系 转世界坐标系
+    详细见Scripts\Lesson10 Coordinate transformation\Lesson10
+
+   练习
+   一个物体A 不管他在什么位置 写一个方法 在他的-1 0 1 的地方生成一个空物体
+   一个物体A 不管他在什么位置 写一个方法 在他前面生成三个球体 001 002 003
+    详细见Scripts\Lesson10  Coordinate transformation\exercises
+
+   Input输入
+    一 返回鼠标在屏幕的位置
+    二 检测鼠标的输入
+    三 检测键盘输入
+    四 检测默认轴的输入
+    详细见Scripts\Lesson11 input\Lesson11
+    
+    练习
+     
+     
