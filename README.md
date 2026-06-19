@@ -89,6 +89,7 @@
         5.默认脚本内容
           Editor\Data\Resources\ScriptTempates
 5.20 生命周期函数
+
    游戏的本质是一个死循环
      生命周期函数
        详细见Scripts\Lesson1 Lile Cycly\Lesson1
@@ -109,6 +110,7 @@
        详细见Scripts\Lesson3 Mono\exercises
 
 5.21-5.22GameObject成员变量 方法
+
    GameObject成员变量
    
    GameObject成员静态方法
@@ -129,6 +131,7 @@
    时间相关Time
    详细见Scripts\Lesson5 About Time\Lesson5
 5.24 对象的位置和位移
+
     1.Vector3基础
     2.Vector3基本计算 +-*/
     3.关于对象的位置和位移
@@ -144,6 +147,7 @@
     3. 使用你之前创建的坦克预设体，让其可以朝自己的面朝向向前移动
     详细见Scripts\Lssoon6 Position and Displacement\exercises
 5.25 对象的角度和旋转
+
     1.角度相关 
     2.旋转相关
     详细代码和知识见Scripts\Lesson7 Angle and rotation\Lesson7
@@ -155,6 +159,7 @@
     详细代码见Scripts\Lesson7 Angle and rotation\Lesson7\exercises
 
 5.26缩放和看向
+
    1.缩放
    2.看向
    详细见Scripts\Lesson8 Zoom and look at\Lesson8
@@ -163,6 +168,7 @@
    使用之前的坦克预设体,让摄像机可以跟随其移动,并且一直看向坦克
    详细见Scripts\Lesson8 Zoom and look at\exercises
 5.28父子关系
+
    一.获取和设置父对象
       父对象的操作
       建立和断绝关系
@@ -181,6 +187,7 @@
    详细见Scripts\Lesson father and son\exercises
 
 6.17坐标转换和input输入
+
    坐标转换
     一世界坐标系 转本地坐标系
     二本地坐标系 转世界坐标系
@@ -204,6 +211,7 @@
     详细见Scripts\Lesson11 input\exercises
      
 6.18 Screen 和 Camera
+
     一 Screen 静态属性
     二 Screen 静态方法
     详细见Scripts\Lesson12 SCreen\Lesson12
@@ -270,6 +278,14 @@
       A摄像机渲染A B摄像机渲染B 玩家能在Game窗口同时看到A和B
       详细见Scripts\Lesson13 Camera\Lesson13_exercises
 
-    
+6.19 Camear Code 相关
+
+   一 重要静态成员
+   二 重要成员
+   详细见Scripts\Lesson14 Camera Code\Lesson14
+
+   练习
+   游戏画面中央有一个立方体 请将该立方体的世界坐标位置转换成屏幕坐标位置 并打印出来
+   在屏幕上点击一下鼠标，则在对应的世界坐标位置 创建一个Cube出来
 
     
