@@ -206,5 +206,70 @@
 6.18 Screen 和 Camera
     一 Screen 静态属性
     二 Screen 静态方法
+    详细见Scripts\Lesson12 SCreen\Lesson12
+    
+    练习
+    一用鼠标滚轮控制炮管上下移动
+    练习题二 
+    在上一题的基础上 加入长按鼠标右键移动鼠标
+    可以让摄像机围绕着坦克旋转，改变观察坦克的视角
+    详细见Scripts\Lesson12 SCreen\exercises
+
+    Camera组件信息
+      Clear Flage  如何清除背景
+      Skybox         天空盒  主要用于3D
+      Solid Color    颜色填充  主要用于2D
+      Depth Only     只花该层，背景透明  多个摄像机叠加渲染
+      Dont's Clear   不移除，覆盖渲染  基本不用
+
+    Culling Mask  选择性渲染部分层级   可以指定只渲染对应层级的对象
+
+    Projection 
+      Perspective 透视模式
+        FOV Axis 视角轴  决定了光学仪器的视野范围
+        Field of View 视角大小
+        Physical Camera 物理摄像机 勾选后可以模拟真实的摄像机
+          Focal Length 焦距
+          Sensor Type 传感器类型
+          Sensor Size 传感器大小
+          Lens Shift 透镜移位
+          Gate Fit 闸门配合
+
+      Orthographic 正交摄像机(一般用于2D游戏制作)
+        Size 摄像范围
+
+    Clipping Planes  裁剪平面距离
+
+    Viewport Rect 视口范围
+      主要用于双摄像机游戏
+      0-1 相当于宽高百分比
+
+    Depth  渲染顺序上的深度
+
+    Redering Path  渲染路径 默认不修改
+
+    Target Texture  渲染纹理
+      可以把摄像机画面渲染在一张图上  主要用于制作小地图
+      在Project右键创建 Render Texture 
+
+    Occlusion Culling  是否启动剔除遮挡
+
+    Allow HDR  是否运行高动态范围渲染
+
+    Allow MSAA  是否允许抗锯齿
+
+    Allow Dynamic Resolution  是否允许动态分辨率呈现
+
+    Target Display  用于哪个显示器  主要用来开发有多个屏幕的平台游戏
+
+    练习
+    1.用两个摄像机实现分屏效果 用之前制作的可以移动的坦克
+      一个摄像机俯视坦克跟随移动  一个摄像机在炮口位置跟随坦克炮口移动
+      详细见Scripts\Lesson13 Camera\Lesson13
+    2.场景上有两个物体 A B 有两个摄像机 A B
+      A摄像机渲染A B摄像机渲染B 玩家能在Game窗口同时看到A和B
+      详细见Scripts\Lesson13 Camera\Lesson13_exercises
+
+    
 
     
