@@ -86,8 +86,10 @@
 
         4.执行的先后顺序
           在脚本右上角可以设置脚本顺序
+          
         5.默认脚本内容
           Editor\Data\Resources\ScriptTempates
+          
 5.20 生命周期函数
 
    游戏的本质是一个死循环
@@ -106,7 +108,9 @@
 
        练习
        1.脚本A脚本B挂载一个对象上 实现在脚本A中让脚本B失活
+       
        2.脚本A挂载A对象，脚本B挂载B对象，在B对象中让A对象的A脚本失活
+       
        详细见Scripts\Lesson3 Mono\exercises
 
 5.21-5.22GameObject成员变量 方法
@@ -139,12 +143,15 @@
 
     练习题
     1. 一个空对象上挂了一个脚本，这个脚本可以让游戏运行时，在场景中创建出一个 n 层由 Cube 构成的金字塔 (提示：实例化预设体或者实例化自带几何体方法)
+    
     2.this.transform.Translate (Vector3.forward, Space.World);
     this.transform.Translate (Vector3.forward, Space.Self);
     this.transform.Translate (this.transform.forward, Space.Self);
     this.transform.Translate (this.transform.forward, Space.World)
     这四个方法，哪些才能让对象朝自己的面朝向移动？为何？(可以画图说明)
+    
     3. 使用你之前创建的坦克预设体，让其可以朝自己的面朝向向前移动
+    
     详细见Scripts\Lssoon6 Position and Displacement\exercises
 5.25 对象的角度和旋转
 
@@ -154,10 +161,13 @@
     
     练习题
     1.使用你之前创建的坦克预设体,在坦克下面加一个底座(用自带几何体即可)让其可以原地旋转,类似一个展览台
+    
     2.在第一题的基础上,让坦克的炮台可以自动左右来回旋转,炮管可以自动上下抬起
+    
     3.请用3个球体,模拟太阳、地球、月亮之间的旋转移动
+    
     详细代码见Scripts\Lesson7 Angle and rotation\Lesson7\exercises
-
+    
 5.26缩放和看向
 
    1.缩放
@@ -166,6 +176,7 @@
 
    练习题
    使用之前的坦克预设体,让摄像机可以跟随其移动,并且一直看向坦克
+   
    详细见Scripts\Lesson8 Zoom and look at\exercises
 5.28父子关系
 
@@ -183,7 +194,9 @@
 
    练习
       把子对象的名字按长度排序
+      
       根据名字查到子对象 直到查到为止 可以找儿子的儿子
+      
    详细见Scripts\Lesson father and son\exercises
 
 6.17坐标转换和input输入
@@ -195,7 +208,9 @@
 
    练习
    一个物体A 不管他在什么位置 写一个方法 在他的-1 0 1 的地方生成一个空物体
+   
    一个物体A 不管他在什么位置 写一个方法 在他前面生成三个球体 001 002 003
+   
     详细见Scripts\Lesson10  Coordinate transformation\exercises
 
    Input输入
@@ -207,9 +222,11 @@
     
     练习
     让一个物体根据键盘输入前后左右移动起来
+    
     让一个物体根据鼠标输入旋转方向
+    
     详细见Scripts\Lesson11 input\exercises
-     
+    
 6.18 Screen 和 Camera
 
     一 Screen 静态属性
@@ -273,9 +290,11 @@
     练习
     1.用两个摄像机实现分屏效果 用之前制作的可以移动的坦克
       一个摄像机俯视坦克跟随移动  一个摄像机在炮口位置跟随坦克炮口移动
+      
       详细见Scripts\Lesson13 Camera\Lesson13
     2.场景上有两个物体 A B 有两个摄像机 A B
       A摄像机渲染A B摄像机渲染B 玩家能在Game窗口同时看到A和B
+      
       详细见Scripts\Lesson13 Camera\Lesson13_exercises
 
 6.19 Camear Code 相关
@@ -286,7 +305,9 @@
 
    练习
    一 游戏画面中央有一个立方体 请将该立方体的世界坐标位置转换成屏幕坐标位置 并打印出来
+   
    二 在屏幕上点击一下鼠标，则在对应的世界坐标位置 创建一个Cube出来
+   
    详细见Scripts\Lesson14 Camera Code\Lesson14_exercises
 
 6.22 light 相关
@@ -351,6 +372,53 @@
 
    练习题
    一 通过代码结合点光源 模拟一个蜡烛的效果
+   
    二 用方向光利用代码转变白天和黑夜的效果
+   
    详细见Scripts\Lesson15 light\exercises
-    
+
+   光的设置面板
+   
+   Exvironment 环境相关设置
+   
+     Skybox Material 天空盒材质 可以改变天空盒
+
+     Sun Source 太阳来源 不设置会默认使用场景中最亮的方向光代表太阳
+
+     Exvironment Light 环境光设置
+       Source 环境光颜色
+         Skybox 天空和材质作为环境光颜色
+         Gradient 可以为天空、地平线、地面单独选择颜色和他们之间混合
+
+       Intersity Multiplier 环境光 亮度 
+
+       Ambient Mode 全局光照模式 只有启动了实时全局和全局烘培时才能使用
+         Realtime 已弃用
+         Baked
+
+   OtherSettings 其他设置
+
+     Fog 雾开关
+       Color 雾颜色
+       Mode 雾计算模式
+         Linear 随距离线性增加
+           Start 离摄像机多远开始有雾
+           End 离摄像机多远开始完全遮挡
+
+         Exponential 随距离指数增加
+           Dersity 强度
+
+         Exponential Qquare 随距离比指数更快的增加
+           Density 强度
+
+     Halo Texture 光源周围挥发着光环的纹理
+
+     Halo Strength 光环可见性
+
+     Flare Fade Speed 耀斑淡出的时间
+
+     Flare Strength 耀斑可见性
+
+     Spot Cookie 聚光灯剪影纹理
+   
+ 
