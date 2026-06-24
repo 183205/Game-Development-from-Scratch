@@ -420,5 +420,116 @@
      Flare Strength 耀斑可见性
 
      Spot Cookie 聚光灯剪影纹理
+
+6.24 物理碰撞
+
+   碰撞产生的必要条件 两个物体都有碰撞器 至少一个物体有刚体
+
+   Rigid Body 刚体
+
+     Mass 质量 默认为千克 质量越大惯性越大
+
+     Drag 空气阻力 根据力移动对象时影响对象的空气阻力大小 0表示没有空气阻力
+
+     Angular Drag 根据扭矩选择对象时影响对象的空气阻力大小 0表示没有空气阻力
+
+     Use Gravity 是否受重力的影响
+
+     Is Kinematic 如果启用此选项 则对象将不会被物理引擎驱动 只能通过 Transform 对其进行操作
+                  对于移动平台 或者如果要动画化附加了 Hinge joint的刚体 此属性非常有用
+
+     Interpolate  插值运算 让刚体的物体移动更平滑
+
+       None 不应用插值运算
+
+       Interpolate 根据上一帧的变化来平滑变换
+
+       Extrapolate 根据上一帧的估计变化来平滑变换
+
+     Collision Detection 碰撞测试模式 用于防止快速移动的对象穿过其他对象而不检测碰撞
+
+     <img width="772" height="780" alt="image" src="https://github.com/user-attachments/assets/cbd9cbed-a180-44ab-8caa-7a0de09c00c0" />
+
+
+     Constraints 约束 对刚果运动的限制
+       Freeze Position 有选择地停止刚体沿世界X Y Z 轴的移动
+
+       Freeze Rotation 有选择地停止刚体围绕局部 X Y Z 轴旋转
+
+   碰撞器
    
- 
+     3D碰撞器种类
+
+       盒状 球状 胶囊 网格 轮胎 地形
+
+     共同参数
+
+       Is Trigger 是否是触发器 启用该属性 则该碰撞体将用于触发事件 并被物理引擎忽略 主要用于进行没有物理效果的碰撞测试
+
+       Material 物理材质 可以确定碰撞体和其他对象碰撞时的交互方式
+
+       Center 碰撞体在对象局部空间中的中心点位置
+
+     常用碰撞器
+
+       BoxCollider 盒状
+
+         Size 碰撞体在 X Y Z 方向上的大小
+
+       Sphere Collider 球状
+
+         Radius 球形碰撞体的半径大小
+
+       Capsule Collider 胶囊状
+
+         Radius 胶囊体的半径
+
+         Height 胶囊体的高度
+
+         Direction  胶囊体在对象局部空间中的轴向
+
+     异形物体使用多种碰撞器组合  刚体对象的子对象碰撞器信息参与碰撞检测
+
+     不常用碰撞器
+
+       Mesh Collider 网格碰撞器 性能消耗大
+
+       Wheel Collider 轮胎碰撞器 使用少
+
+       Terrain Collider 地形碰撞器 性能消耗大
+
+    物理材质
+
+      创建物理材质 Project 窗口点击加号 选择Physic  Material
+
+      物理材质参数 
+
+        Dynamic Friction 已在移动时使用的摩擦力 通常为0-1之间 值为0 就像冰一样 值为1将使物体迅速静止
+
+        Static Friction 当对象静止在表面上时使用的摩擦力 通常为0-1之间 值为0想冰一样 值为1将导致很难让对象移动
+
+        Bounciness 表面的弹性如何？ 值为0不会反弹 值为1反弹时将不会有能力损失
+
+        Friction Combine 两个碰撞对象的摩擦力的组合方式
+
+          Average 对两个摩擦值求平均数
+
+          Minimum 使用两个值中的最小值
+
+          Maximum 使用连个值中的最大值
+
+          Multiply 两个摩擦值相乘
+          
+        Unce Combine 两个碰撞对象的弹性的组合方式，其模式与Friction Combine 模式相同
+
+          Average 对两个摩擦值求平均数
+
+          Minimum 使用两个值中的最小值
+
+          Maximum 使用连个值中的最大值
+
+          Multiply 两个摩擦值相乘
+
+        
+
+      
