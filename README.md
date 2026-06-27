@@ -636,9 +636,49 @@
 
      Stereo Pan 2D声音立体位置 相当于左右声道
 
-     
+     Spatial Blend 音频受3D空间的响应程度
 
-   
+     Reverb Zone Mix 到混响区的输出信号量
+
+     3D Sound Settings 和Spatial Blend 参数成正比应用
+
+       Doppler Level 多普勒效果等级
+
+       Spread 扩散角度设置为3D立体声还是多声道
+
+       Volume Rolloff 声音衰减速度
+
+         Logarithmic Rolloff 靠近音源时，声音很大，但离开对象时，声音降低的非常块
+
+         Linear Rolloff 与音频源的距离越远 听到的声音越小
+
+         Custom Rolloff 音频源的音频效果给根据曲线图的设置变化
+
+      Min/Max Distance 最小距离内，声音保持最大响度 最大距离外，声音开始减弱
+
+   Audio Listener 音频监听脚本
+
+   代码控制音频源
+
+     一 代码控制播放停止
+
+     二 如何检测音效播放完毕
+
+     三 如何动态控制音效播放
+
+   详细见Scripts\Lesson20 Music Code\Lesson20
+
+   麦克风输入相关
+
+     一 获取设备麦克风信息
+
+     二 开始录制
+
+     三 结束录制
+
+     四 获取音频数据用于存储或者传输
+
+   详细见Scripts\Lesson21 Microphone \Lesson21
 
 
 
