@@ -540,7 +540,7 @@
 
       四 碰撞和触发器函数都可以写成虚函数 在子类去重写逻辑
 
-      详细见Assets\Scripts\Lesson16 物理检测\Lesson16
+      详细见Scripts\Lesson16 物理检测\Lesson16
 
    练习
 
@@ -549,5 +549,102 @@
      2.在上一题的基础上，加入子弹触碰到地面会自动消失的功能
      
      3.在上一题的基础上，在场景加入一些立方体，每个立方体被子弹打3下就会消失
+
+     详细见Scripts\Lesson11 Input\Lesson11_exercises
+
+6.27 刚体加力
+
+   一 刚体自带添加力的方法
+
+   二 力的几种模式
+
+   三 力场脚本
+
+   四 刚体休眠
+
+   详细见Scripts\Lesson17 物理系统 刚体加力\Lesson17
+
+6.27 音效系统
+
+   音频文件导入
+
+     常用格式
+
+     wav  MP3  ogg  aiff
+
+   音频文件属性设置
+
+     Force To Mono 多声道转单声道
+
+       Normalize 强制为单声道时，混合过程中被标准化
+
+     Load in Background 后台加载 不阻塞主线程
+
+     Ambisonic 立体混合音 适合360度视频 和 XR应用程序 文件包含立体混响 启用此项
+
+     LoadType 加载类型
+
+       Decompress On Load 不压缩形式存在内存，加载块，但是占用内存高 适合小音效
+
+       Compress in memory 压缩形式存在内存，加载慢，内存小 仅适用较大音频文件
+
+       Streaming 以流形式存在 使用时需要解码 内存占用小 cpu消耗高 性能换内存
+
+     Preload Audio Data 预加载音频 勾选后进入场景就加载 不勾选 第一次使用时才加载
+
+     Compression Format 压缩方式
+
+       PCM 音频以最高质量储存
+
+       Vorbis 相对于PCM压缩更小 根据质量决定
+
+       ADPCM 包含噪音 会被多次播放的声音 如碰撞声
+
+     Quality 音频质量 确实要应用于压缩剪辑的压缩量 不适用于 PCM/ADPECM/HEVAG 格式
+
+     Sample Rate Setting PCM 和 ADPCM 压缩格式允许自动优化或手动降低采样率
+
+       Preserve Sample Rate 此设置可保持采样率不变 （默认值）
+
+       Optimize Sample Rata 此设置根据分析的最高频率内容自动优化采样率
+
+       Override Sample Rata  此设置询盘手动覆盖采样率 因此可有效地将其用于丢弃频率内容
+
+   Audio Source 音频源 
+
+     AudioClip 声音剪辑文件 （音频文件）
+
+     Output 默认将直接输出到场景中的音频监听器 可以更改为输出到混响器
+
+     Mute 静音开关
+
+     Bypass Effect 开关滤波器效果
+
+     Bypass Listener Effects 快速开关所有监听器
+
+     Bypass Reverb Zones 快速开关所有混响区
+
+     Play On Awake 对象创建时就播放音乐 也就是开关启动游戏就播放
+
+     Loop 循环
+
+     Priority 优先级
+
+     Volume 音量大小
+
+     Pitch 高音
+
+     Stereo Pan 2D声音立体位置 相当于左右声道
+
+     
+
+   
+
+
+
+
+
+
+   
 
       
