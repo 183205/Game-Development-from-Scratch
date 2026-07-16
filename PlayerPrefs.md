@@ -27,6 +27,39 @@
 
    存储位置
 
+     一 PlayerPrefs存储的数据存在哪里
+
+     二 数据的唯一性
+
+   练习
+
+     练习一 将知识点一中的练习题，改为可以支持存储多个玩家信息 
+
+     详细见Player_Scripts\Lesson1_基础方法\Lesson1_exericses
+
+     练习二 练习二要在游戏中做一个排行榜功能排行榜主要记录玩家名(可重复)，玩家得分，玩家通关时间请用PlayerPrefs存储读取排行榜相关信息
+
+     详细见Player_Scripts\Lesson2_存储位置\Lesson2_exericses
+
+
+   实践项目
+
+   <img width="381" height="549" alt="image" src="https://github.com/user-attachments/assets/6efd8677-0c3e-4a8c-ab86-348434616f04" />
+
+   Playerprefs数据管理类创建
+   
+  反射存储数据一常用成员
+  反射存储数据一List成员
+  反射存储数据一Dic成员
+  反射存储数据一自定义类成员
+  反射读取数据一常用成员
+  反射读取数据一List成员
+  反射读取数据一Dic成员
+  反射读取数据一自定义类成员
+  生成资源包
+
+
+
      
 
     
